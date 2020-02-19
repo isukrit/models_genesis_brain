@@ -11,7 +11,7 @@ from torchsummary import summary
 import sys
 from utils import *
 import unet3d
-from config_sukrit_CT import models_genesis_config
+from config_CT import models_genesis_config
 from tqdm import tqdm
 
 print("torch = {}".format(torch.__version__))
