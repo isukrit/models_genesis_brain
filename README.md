@@ -17,4 +17,4 @@ Models Genesis for brain data. Tried for ATLAS dataset and CQ500 dataset. Use th
     - Classification on the ATLAS MRI data: Use the `Genesis_Brain_MRI_classification.py`	and `config_MRI_classification.py` for this.
     - Segmentation on the ATLAS MRI data: Use the `Genesis_Brain_MRI_segmentation.py` and `config_MRI.py` for this. 
     
-    Set the `type_of_model` variable in the corresponding `conf_\*.py` file in order to train the U-Net model from scratch (value of `type_of_model` = 'scratch') or use the weights from the Models Genesis pre-training (value of `type_of_model` = 'MG_pretrained'). 
+    Set the `type_of_model` variable in the corresponding `conf_*.py` file in order to train the U-Net model from scratch (value of `type_of_model` = 'scratch') or use the weights from the Models Genesis pre-training (value of `type_of_model` = 'MG_pretrained'). 
